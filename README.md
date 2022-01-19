@@ -1,0 +1,15 @@
+多年來，nginx一直是追求Linux Webserver效能的唯一選擇
+尤其它可以提供Reverse Proxy反向代理，可以保護後端的伺服器
+但是nginx有一個最大的缺點，就是它的設定對初學者而言太過艱澀
+
+openlitespeed是一個後起之秀，尤其它針對Wordpress提供了非常優異的cache功能，而且是免費的
+最重要的是，可以直接安裝將openlitespeed、Mysql、PHP...都整合在一起的cyberpanel
+提供全web介面的網站全功能管理系統，深受LAMP架構的使用者推崇
+
+在網路上可以輕鬆地找到使用nginx架設reverse proxy保護Node-Red的文章
+於是我花了點時間測試了cyberpanel環境下的openlitespeed，確實可以順利使用它來保護您的Node-Red
+
+您可以直接參考官方文件
+https://openlitespeed.org/kb/reverse-proxy-basics/
+
+
